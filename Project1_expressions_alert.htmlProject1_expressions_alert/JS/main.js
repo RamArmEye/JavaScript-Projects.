@@ -22,6 +22,13 @@ document.write("\"Be who you are and say what you fell,"
 +"becouse those who mind don\'t matter and those who matter don\'t mind.\""
 +"-Dr.Seuss");
 --
-*/
 var B = "Concatenaded" + "String"
 document.write(B);
+--
+*/
+var name = "Jim Carrey",
+    age = "55",
+    height = "5'9\"",
+    hair = "black",
+    eye = "blue";
+document.write(eye);

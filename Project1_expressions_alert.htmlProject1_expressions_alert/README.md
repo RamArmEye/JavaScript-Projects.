@@ -10,3 +10,21 @@
 <p>Escape Character Assignment</p>
 <p>Concatenating a String</p>
 <p>Concatenated String Challenge</p>
+<p>Multiple Variables<p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
