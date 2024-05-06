@@ -5,3 +5,4 @@
 <p>method: alert("x"); replaced with window.alert("x");</p>
 <p>method window.alert("x"); replaced with document.write("x");</p>
 <p>testing variable</p>
+<p>String assignment</p>
