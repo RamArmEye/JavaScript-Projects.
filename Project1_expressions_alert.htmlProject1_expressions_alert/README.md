@@ -8,3 +8,4 @@
 <p>String assignment</p>
 <p>Adding backslashes</p>
 <p>Escape Character Assignment</p>
+<p>Concatenating a String</p>
