@@ -33,4 +33,4 @@ var name = "Jim Carrey",
     eye = "brown",
     inFewYears = 5;
 
-document.write(name + " is " + age + " years old. In " + (age + inFewYears) + " years, he will be " + (age + inFewYears) + " years old.");
+document.write(name + " is " + age + " years old. In " + (inFewYears) + " years, he will be " + (age + inFewYears) + " years old.");
