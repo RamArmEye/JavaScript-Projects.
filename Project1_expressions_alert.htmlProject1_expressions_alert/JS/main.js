@@ -14,5 +14,8 @@ var name = "Jim Carrey",
 
 window.alert("Name: " + name + "\nAge: " + age + "\nHeight: " + height + "\nHair: " + hair + "\nEye: " + eye);
 --
-*/
 document.write("Lisa told Bart,\"Knock it off, Bart! Or I'll tell dad!\"<br>\"Eat my shorts!\"Bart responded.");
+--
+*/
+document.write("Bzzt! Bart grabbed the phone, \"Yo!\" + '<br>' + \"Bart, it's Lisa. Mom said no pranks today or you're on dish duty!\" + '<br>' + \"Got it, Lis!\" Bart replied before hanging up.");
+
