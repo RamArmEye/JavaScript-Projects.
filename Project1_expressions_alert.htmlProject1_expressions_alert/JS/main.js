@@ -27,8 +27,10 @@ document.write(B);
 --
 */
 var name = "Jim Carrey",
-    age = "55",
-    height = "5'9\"",
+    age = 62,
+    height = "6'2\"",
     hair = "black",
-    eye = "blue";
-document.write(name + " is " + age + " years old.");
+    eye = "brown",
+    inFewYears = 5;
+
+document.write(name + " is " + age + " years old. In " + (age + inFewYears) + " years, he will be " + (age + inFewYears) + " years old.");
