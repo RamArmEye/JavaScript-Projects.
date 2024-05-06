@@ -31,4 +31,4 @@ var name = "Jim Carrey",
     height = "5'9\"",
     hair = "black",
     eye = "blue";
-document.write(eye);
+document.write(Name, + "is" + age,);
