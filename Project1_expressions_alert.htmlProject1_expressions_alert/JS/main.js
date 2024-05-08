@@ -36,4 +36,4 @@ var name = "Jim Carrey",
     document.write(name + " is " + age + " years old. ");//used two values to calculate age and this is expression
     document.write("In " + (inFewYears) + " years, ");
     document.write("he will be " + (age + inFewYears) + " years old.");
-    document.write(name + " is " + age + " years old. In " + (inFewYears) + " years, he will be " + (age + inFewYears) + " years old.");
+    
