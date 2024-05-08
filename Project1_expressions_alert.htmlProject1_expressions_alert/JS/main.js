@@ -1,7 +1,10 @@
 /*
 alert("English: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
+
+
 window.alert("English: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
 document.write("Method: document.write\nEnglish: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
+
 --
 var S = "This is string";
 document.write(S);
@@ -25,7 +28,7 @@ document.write("\"Be who you are and say what you fell,"
 var B = "Concatenaded" + "String"
 document.write(B);
 --
-*/
+
 var name = "Jim Carrey",
     age = 62,//variable age is set to value 62 
     height = "6'2\"",
@@ -36,4 +39,35 @@ var name = "Jim Carrey",
     document.write(name + " is " + age + " years old. ");//used two values to calculate age and this is expression
     document.write("In " + (inFewYears) + " years, ");
     document.write("he will be " + (age + inFewYears) + " years old.");
+*/
+
+//===============================================================
+
+//Basic Java Sript Projects Assignment
+
+// window.alert and document.write methods
+window.alert("English: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
+document.write("Method: document.write\nEnglish: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
+
+// Variable 'Sent1'
+var Sent1 = "This is the beginning of the string";
+// Variable 'Sent2' 
+var Sent2 = " and this is the end of the string";
+// Full sentence
+var fullSentence = Sent1 + Sent2;
+
+// Example expression: 
+var name = "Jim Carrey",
+    age = 62,//variable age is set to value 62 
+    height = "6'2\"",
+    hair = "black",
+    eye = "brown",
+    inFewYears = 5;
+
+    document.write(name + " is " + age + " years old. ");//used two values to calculate age and this is expression
+    document.write("In " + (inFewYears) + " years, ");
+    document.write("he will be " + (age + inFewYears) + " years old.");
+
+
+
     
