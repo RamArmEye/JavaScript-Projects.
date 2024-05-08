@@ -47,7 +47,7 @@ var name = "Jim Carrey",
 
 // window.alert and document.write methods
 window.alert("Method: window.alert\nEnglish: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
-document.write("Method: document.write\English: For the last time, Hello, world!");
+document.write("Method: document.write. For the last time, Hello, world!");
 
 // Variable 'Sent1'
 var Sent1 = "This is the beginning of the string";
