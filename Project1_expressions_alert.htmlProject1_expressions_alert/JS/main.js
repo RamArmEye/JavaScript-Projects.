@@ -41,7 +41,7 @@ var name = "Jim Carrey",
     document.write("he will be " + (age + inFewYears) + " years old.");
 */
 
-//===============================================================
+
 
 //Basic Java Sript Projects Assignment
 
