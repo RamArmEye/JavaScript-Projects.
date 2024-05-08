@@ -46,7 +46,7 @@ var name = "Jim Carrey",
 //Basic Java Sript Projects Assignment
 
 // window.alert and document.write methods
-window.alert("English: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
+window.alert("English: Hello world");
 document.write("Method: document.write\nEnglish: Hello world\nSpanish: Hola mundo\nFrench: Bonjour monde\nGerman: Hallo Welt\nLithuanian: Labas pasauli\nPortuguese: Olá mundo");
 
 // Variable 'Sent1'
