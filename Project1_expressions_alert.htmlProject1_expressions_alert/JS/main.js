@@ -64,9 +64,9 @@ var name = "Jim Carrey",
     eye = "brown",
     inFewYears = 5;
 
-    document.write(name + " is " + age + " years old. ");//used two values to calculate age and this is expression
-    document.write("In " + (inFewYears) + " years, ");
-    document.write("he will be " + (age + inFewYears) + " years old.");
+    window.alert(name + " is " + age + " years old. ");//used two values to calculate age and this is expression
+    window.alert("In " + (inFewYears) + " years, ");
+    window.alert("he will be " + (age + inFewYears) + " years old.");
 
 
 
