@@ -13,7 +13,7 @@
 <p>Multiple Variables<p>
 <p>Expressions</p>
 <p>My first function and Commenting Code</p>
-<p>Basic Java Sript Projects Assignment</p>
+<p>Basic Java Script Projects Assignment</p>
 <p></p>
 <p></p>
 <p></p>
