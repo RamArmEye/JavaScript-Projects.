@@ -27,10 +27,13 @@ document.write(B);
 --
 */
 var name = "Jim Carrey",
-    age = 62,
+    age = 62,//variable age is set to value 62 
     height = "6'2\"",
     hair = "black",
     eye = "brown",
     inFewYears = 5;
 
-document.write(name + " is " + age + " years old. In " + (inFewYears) + " years, he will be " + (age + inFewYears) + " years old.");
+    document.write(name + " is " + age + " years old. ");//used two values to calculate age and this is expression
+    document.write("In " + (inFewYears) + " years, ");
+    document.write("he will be " + (age + inFewYears) + " years old.");
+    document.write(name + " is " + age + " years old. In " + (inFewYears) + " years, he will be " + (age + inFewYears) + " years old.");
