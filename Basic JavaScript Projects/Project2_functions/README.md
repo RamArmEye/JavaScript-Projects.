@@ -2,7 +2,7 @@
 <h5>Project2_functions</h5>
 <p>Created: readme.md index.html JS folder and main.js </p>
 <p>Function assigment</p>
-<p></p>
+<p>Operator Assignment</p>
 <p></p>
 <p></p>
 <p></p>
