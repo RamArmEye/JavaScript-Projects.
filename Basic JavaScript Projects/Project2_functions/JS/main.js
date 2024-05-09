@@ -1,3 +1,4 @@
+/*
 //after clicking the button two variables become as single string
 function clickButton() {   
     // Variable 'Sent1'
@@ -6,3 +7,11 @@ function clickButton() {
         var Sent2 = " and this is the end of the string";
         document.getElementById("concatenate").textContent = Sent1 + Sent2;
     }
+*/
+
+//2_+= Operator
+function clickButton() {
+	var sentence = "This is the beginning of the string";
+	sentence +=  " and this is the end of the string";
+	document.getElementById("concatenate").innerHTML =sentence;
+}
