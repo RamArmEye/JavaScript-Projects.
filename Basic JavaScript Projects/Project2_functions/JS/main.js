@@ -1,4 +1,5 @@
 /*
+/ 1 Function assigment
 //after clicking the button two variables become as single string
 function clickButton() {   
     // Variable 'Sent1'
@@ -9,7 +10,7 @@ function clickButton() {
     }
 */
 
-//2_+= Operator
+//2  += Operator Assignment
 function clickButton() {
 	var sentence = "This is the beginning of the string";
 	sentence +=  " and this is the end of the string";
