@@ -1,7 +1,7 @@
-
-function subtraction() {
-	var subtraction = 5-2;
-	document.getElementById("subtraction").innerHTML = "5-2 = " + subtraction;
+//  1 Subtraction Multiplication and Division Assignment
+function subtraction() {function called after button clicked
+	var subtraction = 5-2; // variable called subtraction and equals 5-2
+	document.getElementById("subtraction").innerHTML = "5-2 = " + subtraction;// output on the screen
 	
 }	
 function multiplication() {
