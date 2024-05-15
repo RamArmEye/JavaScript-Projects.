@@ -23,7 +23,7 @@ function more_math() {
     document.getElementById("math_result").innerHTML = 
         "1 plus 2, multiplied by 10, divided in half, and then subtracted by 5 equals " + result;
 }
---
+
 
 /*
 // 3 Modulus Operator Assignment
