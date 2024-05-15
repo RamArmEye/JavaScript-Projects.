@@ -14,11 +14,19 @@ function division() {
 	var division = 100/2;
 	document.getElementById("division").innerHTML = "100/2 = " + division;
 }
-*/
+
 --
 // 2 Multiple Operators Assignment
 function more_math() {
     var result = (1 + 2) * 10 / 2 - 5;
     document.getElementById("math_result").innerHTML = 
         "1 plus 2, multiplied by 10, divided in half, and then subtracted by 5 equals " + result;
+}
+--
+*/
+
+// 3 Modulus Operator Assignment
+function modulus_operator() {
+    var simple_math = 25 % 6;
+    document.getElementById("modulus_result").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_math;
 }

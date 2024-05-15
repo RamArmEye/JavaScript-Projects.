@@ -3,7 +3,7 @@
 <p>Created: readme.md index.html JS folder and main.js </p>
 <p>1 Subtraction Multiplication and Division Assignment</p>
 <p>2 Multiple Operators Assignment</p>
-<p></p>
+<p>3 Modulus Operator Assignment</p>
 <p></p>
 <p></p>
 <p></p>
