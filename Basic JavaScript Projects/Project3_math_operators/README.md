@@ -6,7 +6,7 @@
 <p>3 Modulus Operator Assignment</p>
 <p>4 Unary Operator Assignment</p>
 <p>5 Increment and Decrement Assignment </p>
-<p></p>
+<p>6 Math.Random Assignment</p>
 <p></p>
 <p></p>
 <p></p>

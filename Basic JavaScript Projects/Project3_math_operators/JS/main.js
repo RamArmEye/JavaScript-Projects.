@@ -41,7 +41,7 @@ function negation_operator() {
 	document.getElementById("negation_result").innerHTML = -x;
 }
 --
-*/
+
 
 // 5 Increment and Decrement Operator Assignment
 function increment_operator() {
@@ -55,4 +55,10 @@ function decrement_operator() {
 	var y = 5.25;
 	y--; //reduce by discrete
 	document.getElementById("decrement_result").innerHTML = y;
+}
+--
+*/
+// 6 Math.Random Assignment
+function generateRandomNumber() {
+    window.alert(Math.random() * 100);
 }
