@@ -9,7 +9,7 @@ function dataType() {
     document.write("Data type of myVariable is: "  +  typeof myVariable);
     document.write("10" + myVariable)
 }
-*/
+
 
 // 2 Infinity Assignment
 function posInfinity() {
@@ -20,3 +20,7 @@ function posInfinity() {
     var pInfinity = (-2E310) 
     document.getElementById("nInfinity").innerHTML = pInfinity;
  }
+*/
+
+
+ // 3 Boolean Assignment

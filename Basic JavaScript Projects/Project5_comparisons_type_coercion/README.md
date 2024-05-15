@@ -2,7 +2,7 @@
 <p>Empty files created</p>
 <p>1 Type Of Operator and Coercion Assignment</p>
 <p>2 Infinity Assignment</p>
-<p></p>
+<p>3 Boolean Assignment</p>
 <p></p>
 <p></p>
 <p></p>
