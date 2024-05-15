@@ -33,10 +33,26 @@ function modulus_operator() {
     document.getElementById("modulus_result").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_math;
 }
 --
-*/
+
 
 // 4 Unary Operator Assignment
 function negation_operator() {
 	var x = 10;
 	document.getElementById("negation_result").innerHTML = -x;
+}
+--
+*/
+
+// 5 Increment and Decrement Operator Assignment
+function increment_operator() {
+	var x = 5;
+	x++; //++ counts one step up.
+	document.getElementById("increment_result").innerHTML = x;
+
+}
+
+function decrement_operator() {
+	var y = 5.25;
+	y--; //reduce by discrete
+	document.getElementById("decrement_result").innerHTML = y;
 }
