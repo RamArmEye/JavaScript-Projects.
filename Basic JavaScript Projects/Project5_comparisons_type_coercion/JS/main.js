@@ -24,3 +24,13 @@ function posInfinity() {
 
 
  // 3 Boolean Assignment
+ function True() {
+    var num1 = 5
+    var num2 = 7
+     document.getElementById("less").innerHTML = (num1 < num2);
+ }
+ function False() {
+    var num1 = 5
+    var num2 = 7
+    document.getElementById("more").innerHTML = (num1 > num2);
+ }
