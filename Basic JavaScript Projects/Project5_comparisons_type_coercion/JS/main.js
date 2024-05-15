@@ -33,4 +33,6 @@ function posInfinity() {
     var num1 = 5
     var num2 = 7
     document.getElementById("more").innerHTML = (num1 > num2);
- }
+    console.log(2 + 2);
+}
+ 
