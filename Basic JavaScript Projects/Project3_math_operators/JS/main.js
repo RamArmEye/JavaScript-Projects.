@@ -25,10 +25,18 @@ function more_math() {
 }
 
 --
-*/
+
 
 // 3 Modulus Operator Assignment
 function modulus_operator() {
     var simple_math = 25 % 6;
     document.getElementById("modulus_result").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_math;
+}
+--
+*/
+
+// 4 Unary Operator Assignment
+function negation_operator() {
+	var x = 10;
+	document.getElementById("negation_result").innerHTML = -x;
 }
