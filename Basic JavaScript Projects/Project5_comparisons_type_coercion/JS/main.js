@@ -54,18 +54,31 @@ function posInfinity() {
 
 // 6 Triple Equal Signs Assignment
 
+
 function check1() {
-    var x=10;
-    var y=10;
-     document.getElementById("equal").innerHTML = (x === y);
- }
- function check2() {
-    var x=10;
-    var y="10";
-    document.getElementById("notEqual").innerHTML = (x === y);
- }  
- function check3() {
-        var a="Alfa";
-        var b="Alfa";
-        document.getElementById("equal1").innerHTML = (a === b);
- }
+    const x = 10;
+    const y = 10;
+    const result = (x === y);
+    document.getElementById("result1").textContent = result;
+}
+
+function check2() {
+    const x = 10;
+    const y = '20';
+    const result = (x === y);
+    document.getElementById("result2").textContent = result;
+}
+
+function check3() {
+    const x = 10;
+    const y = '10';
+    const result = (x === y);
+    document.getElementById("result3").textContent = result;
+}
+
+function check4() {
+    const x = "Hi";
+    const y = "Hello";
+    const result = (x === y);
+    document.getElementById("result4").textContent = result;
+}

@@ -110,33 +110,33 @@
 </html -->
 
 <!-- 6 Triple Equal Signs Assignment-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <title>Triple Equal Signs Assignment</title>
     <meta charset="UTF-8">
-    
-    <script src="JS/main.js"></script>
+    <title>Triple Equal Signs Assignment</title>
+	<script src="JS/main.js"></script>
 </head>
-
 <body>
+    <p id="equal1">Same data type and value: x=10 and y=10</p>
+	<p id="result1"></p>
+    <button onclick="check1()">Click to check if it is equal!</button> 
+    
 
-    <p id="equal"> x=10 and y=10</p>
-    <button id="equal" onclick="check1()">Click to check if it is equal  ! 
-    </button>
-	
-	<p id="notEqual"> x=10 and y="10"</p>
-    <button id="notEqual" onclick="check2()">Click to check if it is equal  ! 
-    </button>
-	
-    <p id="equal1"> a=Alfa and b=Alfa</p>
-    <button id="equal1" onclick="check3()">Click to check for equality  ! 
-    </button>
-	
-    <p>Sources of courses:</p>
-    <p><a href="https://www.pitman-training.com/">Pitman Training</a></p>
-    <p><a href="https://www.w3schools.com/">W3Schools</a></p>
+    <p id="equal2">Different data type and different value: x=10 and y='20'</p>
+	<p id="result2"></p>
+    <button onclick="check2()">Click to check if it is equal!</button>
+    
+
+    <p id="equal3">Different data type but same value: x=10 and y='10'</p>
+	<p id="result3"></p>
+    <button onclick="check3()">Click to check if it is equal!</button>
+    
+
+    <p id="equal4">Same data type but different value:'Hi' and 'Hello'</p>
+	<p id="result4"></p>
+    <button onclick="check4()">Click to check if it is equal!</button>
+    
+
 </body>
-</html
+</html>
