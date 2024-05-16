@@ -5,7 +5,7 @@
 <p>3 Boolean Assignment</p>
 <p>4 console.log() Method</p>
 <p>5 Double Equal Signs Assignment</p>
-<p></p>
+<p>Triple Equal Signs Assignment</p>
 <p></p>
 <p></p>
 <p></p>

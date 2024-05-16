@@ -40,14 +40,32 @@ function posInfinity() {
 
   // 5 Double Equal Signs Assignment
 
-  function check1() {
-    var num1 = 101
-    var num2 = 101
-     document.getElementById("equal").innerHTML = (num1 == num2);
+//   function check1() {
+//     var num1 = 101
+//      var num2 =101 
+//      document.getElementById("equal").innerHTML = (num1 == num2);
+//  }
+//  function check2() {
+//     var num1 = 101
+//     var num2 = 202
+//     document.getElementById("notEqual").innerHTML = (num1 == num2);
+    
+// }
+
+// 6 Triple Equal Signs Assignment
+
+function check1() {
+    var x=10;
+    var y=10;
+     document.getElementById("equal").innerHTML = (x === y);
  }
  function check2() {
-    var num1 = 101
-    var num2 = 202
-    document.getElementById("notEqual").innerHTML = (num1 == num2);
-    
-}
+    var x=10;
+    var y="10";
+    document.getElementById("notEqual").innerHTML = (x === y);
+ }  
+ function check3() {
+        var a="Alfa";
+        var b="Alfa";
+        document.getElementById("equal1").innerHTML = (a === b);
+ }
