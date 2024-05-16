@@ -20,10 +20,10 @@ function posInfinity() {
     var pInfinity = (-2E310) 
     document.getElementById("nInfinity").innerHTML = pInfinity;
  }
-*/
 
 
- // 3 Boolean Assignment
+
+ // 3 and 4  Boolean Assignment
  function True() {
     var num1 = 5
     var num2 = 7
@@ -35,4 +35,19 @@ function posInfinity() {
     document.getElementById("more").innerHTML = (num1 > num2);
     console.log(2 + 2);
 }
- 
+
+*/
+
+  // 5 Double Equal Signs Assignment
+
+  function check1() {
+    var num1 = 101
+    var num2 = 101
+     document.getElementById("equal").innerHTML = (num1 == num2);
+ }
+ function check2() {
+    var num1 = 101
+    var num2 = 202
+    document.getElementById("notEqual").innerHTML = (num1 == num2);
+    
+}
