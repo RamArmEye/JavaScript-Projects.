@@ -8,5 +8,5 @@
 <p>6 Triple Equal Signs Assignment</p>
 <p>7 And Operator Assignment with a link</p>
 <p>8 Not Operator Assignment with a link</p>
-<p>Project5_Comparisons_Type_Coercion Assignment: index.html@ line i95 and  main.js@line 115</p>
+<p>Project5_Comparisons_Type_Coercion Assignment: index.html@ line 195 and  main.js@line 115</p>
 <p></p>
