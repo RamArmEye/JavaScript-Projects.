@@ -6,7 +6,7 @@
 <p>4 console.log() Method</p>
 <p>5 Double Equal Signs Assignment</p>
 <p>6 Triple Equal Signs Assignment</p>
-<p>7 And Operator Assignment</p>
-<p></p>
+<p>7 And Operator Assignment with a link</p>
+<p>8 Not Operator Assignment with a link</p>
 <p></p>
 <p></p>

@@ -85,15 +85,28 @@ function posInfinity() {
 
 // 7 And Operator Assignment
 
-function check1() {
+// function check1() {
+//     // The logical operation for the first check
+//     let result1 = 5 > 10 || 10 > 4;
+//     document.getElementById('result1').innerHTML =result1; 
+// }
+// function check2() {
+//     // The logical operation for the second check
+//     let result2 = 5 > 10 || 10 > 20;
+//     document.getElementById('result2').innerHTML = 
+//           result2 + '.The logical OR (||) (logical disjunction) operator for a set of operands is true if and only if one or more of its operands is true';
+// }
+	
+//8 Not Operator Assignment
+function not_Function1() {
     // The logical operation for the first check
-    let result1 = 5 > 10 || 10 > 4;
+    let result1 = !(20 > 10);
     document.getElementById('result1').innerHTML =result1; 
 }
-function check2() {
+function not_Function2() {
     // The logical operation for the second check
-    let result2 = 5 > 10 || 10 > 20;
+    let result2 = !(5 > 10);
     document.getElementById('result2').innerHTML = 
-          result2 + '.The logical OR (||) (logical disjunction) operator for a set of operands is true if and only if one or more of its operands is true';
+          result2 + '.The logical NOT (!) (logical complement, negation) operator takes truth to falsity and vice versa';
 }
 	
