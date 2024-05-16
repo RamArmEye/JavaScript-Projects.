@@ -1,7 +1,7 @@
+<!-- 
+Project5_comparisons_type_coercion
 
-<!--Project5_comparisons_type_coercion-->
 
-<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,11 +16,11 @@
   <p><a href="https://www.w3schools.com/">W3Schools</a></p>
 </body>
 </html>
--->
+ -->
 
 
 <!--2 Infinity Assignment-->
-<!--
+<!--  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,11 +47,11 @@
     <p><a href="https://www.pitman-training.com/">Pitman Training</a></p>
     <p><a href="https://www.w3schools.com/">W3Schools</a></p>
 </body>
-</html>
--->
+</html> -->
+
 
 <!--3 and 4 Boolean Assignment-->
-<!--
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,12 +77,12 @@
     <p><a href="https://www.pitman-training.com/">Pitman Training</a></p>
     <p><a href="https://www.w3schools.com/">W3Schools</a></p>
 </body>
-</html>
--->
+</html> -->
+
 
 <!-- 5 Double Equal Signs Assignment-->
-
-<!-- <!DOCTYPE html>
+<!-- 
+<!DOCTYPE html>
 <html lang="en">
 <head>
    
@@ -107,10 +107,11 @@
     <p><a href="https://www.pitman-training.com/">Pitman Training</a></p>
     <p><a href="https://www.w3schools.com/">W3Schools</a></p>
 </body>
-</html -->
+</html  -->
 
 <!-- 6 Triple Equal Signs Assignment-->
-<!-- <!DOCTYPE html>
+<!-- 
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -139,11 +140,11 @@
     
 
 </body>
-</html> -->
+</html>  -->
 
 <!--7 And Operator Assignment-->
-
-<!-- <!DOCTYPE html>
+<!-- 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -163,11 +164,11 @@
 
 </html><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR">More: developer.mozilla</a></p>
 </body>
-</html> -->
+</html>
+ -->
 
-
-<!--8 Not Operator Assignment-->
-
+<!-- 8 Not Operator Assignment -->
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -188,4 +189,108 @@
 
 </html><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT">More: developer.mozilla</a></p>
 </body>
+</html>  -->
+
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+     Project5_Comparisons_Type_Coercion Assignment
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+<!--Project5_comparisons_type_coercion-->
+<h1>Project5_Comparisons_Type_Coercion Assignment</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Project5_Comparisons_Type_Coercion Assignment</title>
+  <meta charset="UTF-8">
+  <script src="JS/main.js"></script>
+</head>
+<body>
+<!--1 Type Of Operator and Coercion Assignment-->
+<h4>Type Of Operator and Coercion Assignment</h4>
+  <p id="myVariable" onclick="dataType()"> Click me! restart browser to test next Click me!</p>
+  
+<!--2 Infinity Assignment-->
+<h4>Infinity Assignment</h4>
+    <p id="Infinity"> Maximumu floting number is 1.7976931348623157E308.</p>
+    <button id="Infinity" onclick="posInfinity()">Click me to see my entered number  ! 
+    </button>
+	
+	<p id="nInfinity"> Maximumu floting number is -1.7976931348623157E308.</p>
+    <button id="Infinity" onclick="negInfinity()">Click me to see my entered number  ! 
+    </button>
+
+<!--3 and 4 Boolean Assignment-->
+<h4>Boolean Assignment</h4>
+    <p id="less"> "5 < 7".</p>
+    <button id="less" onclick="True()">Click to see if it is true or false  ! 
+    </button>
+	
+	<p id="more"> "5 > 7".</p>
+    <button id="more" onclick="False()">Click to see if it is true or false  ! 
+    </button>
+
+<!-- 5 Double Equal Signs Assignment-->
+<h4>Double Equal Signs Assignment</h4>
+
+    <p id="equal"> "101==101".</p>
+    <button id="equal" onclick="check1()">Click to check for equality  ! 
+    </button>
+	
+	<p id="notEqual"> "101==202".</p>
+    <button id="notEqual" onclick="check2()">Click to check for equality  ! 
+    </button>
+</body>
+</html 
+
+<!-- 6 Triple Equal Signs Assignment-->
+<h4>Triple Equal Signs Assignment</h4>
+    <p id="equal1">Same data type and value: x=10 and y=10</p>
+	<p id="result1"></p>
+    <button onclick="check3()">Click to check if it is equal!</button> 
+    
+
+    <p id="equal2">Different data type and different value: x=10 and y='20'</p>
+	<p id="result2"></p>
+    <button onclick="check4()">Click to check if it is equal!</button>
+    
+
+    <p id="equal3">Different data type but same value: x=10 and y='10'</p>
+	<p id="result3"></p>
+    <button onclick="check5()">Click to check if it is equal!</button>
+    
+
+    <p id="equal4">Same data type but different value:'Hi' and 'Hello'</p>
+	<p id="result4"></p>
+    <button onclick="check6()">Click to check if it is equal!</button>
+
+<!--7 And Operator Assignment-->
+<h4>And Operator Assignment</h4> 
+    <p id="logical">OR ||, Operator: 5 > 10 || 10 > 4 </p>
+	<div id="result5"></div>
+    <button onclick="check7()">Click to check result!</button>
+    
+    
+    <p id="logical1">OR ||, Operator: 5 > 10 || 10 > 20 </p>
+	<div id="result6"></div>
+    <button onclick="check8()">Click to check result!</button>
+    
+
+<!--8 Not Operator Assignment-->
+<h4>Not Operator Assignment</h4>   
+    <p id="not1">'The logical NOT (!) operator': 20 > 10 </p>
+    <button onclick="not_Function1()">Click to check result!</button>
+    <div id="result7"></div>
+    
+    <p id="not2">'The logical NOT (!) operator': 5 > 10 </p>
+	<div id="result8"></div>
+    <button onclick="not_Function2()">Click to check result!</button>
+    
+
+
+</html><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">More: developer.mozilla</a></p>
+<p><a href="https://www.pitman-training.com/">Pitman Training</a></p>
+  <p><a href="https://www.w3schools.com/">W3Schools</a></p>
+</body>
 </html>
+
