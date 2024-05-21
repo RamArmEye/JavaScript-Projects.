@@ -50,3 +50,4 @@ function myFunction() {
     document.getElementById("New_and_This").innerHTML = 
     "Emily drives a " + Emily.Vehicle_Color + "-colored " + Emily.Vehicle_Model + 
     " manufactured in " + Emily.Vehicle_Year;
+}
