@@ -16,8 +16,7 @@ function Ride_Function() {
 }
 */
 // 2 Coding Assignment
-
-function Vehicle(Make, Model, Year, Color) {
+/*function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
     this.Vehicle_Year = Year;
@@ -33,3 +32,21 @@ function myFunction() {
     "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + 
     " manufactured in " + Erik.Vehicle_Year;
 }
+*/
+
+// 3 New Keyword Assignment
+function Vehicle(Make, Model, Year, Color) {
+    this.Vehicle_Make = Make;
+    this.Vehicle_Model = Model;
+    this.Vehicle_Year = Year;
+    this.Vehicle_Color = Color;
+}
+
+var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
+var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
+var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
+
+function myFunction() {
+    document.getElementById("New_and_This").innerHTML = 
+    "Emily drives a " + Emily.Vehicle_Color + "-colored " + Emily.Vehicle_Model + 
+    " manufactured in " + Emily.Vehicle_Year;
