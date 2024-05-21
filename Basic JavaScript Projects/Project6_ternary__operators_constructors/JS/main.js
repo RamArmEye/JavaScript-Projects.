@@ -35,6 +35,7 @@ function myFunction() {
 */
 
 // 3 New Keyword Assignment
+/*
 function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
@@ -50,4 +51,30 @@ function myFunction() {
     document.getElementById("New_and_This").innerHTML = 
     "Emily drives a " + Emily.Vehicle_Color + "-colored " + Emily.Vehicle_Model + 
     " manufactured in " + Emily.Vehicle_Year;
+}
+
+*/
+//4 Nested Functions Assignment
+
+// Update element content
+function count_Function() {
+    // Set innerHTML
+    document.getElementById("Nested_Function").innerHTML = Count();
+
+    // Increment function
+    function Count() {
+        // Initialize variable
+        var Starting_point = 9;
+
+        // Increment by one
+        function Plus_one() {
+            Starting_point += 1; // Add 1
+        }
+
+        // Call increment
+        Plus_one();
+
+        // Return value
+        return Starting_point;
+    }
 }
