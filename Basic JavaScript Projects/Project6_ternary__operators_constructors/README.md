@@ -5,7 +5,8 @@
 <p>2 Coding Assignment</p>
 <p>3 New Keyword Assignment</p>
 <p>4 Nested Functions Assignment</p>
-<p></p>
+<p>Final Project6_Ternary_Operators_Constructors Assignment
+index.html line 71 and main.js line 83</p>
 <p></p>
 <p></p>
 <p></p>
