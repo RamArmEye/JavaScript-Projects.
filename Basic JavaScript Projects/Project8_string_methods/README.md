@@ -2,7 +2,7 @@
 <h5>Project8_string_methods</h5>
 <p> Created standar templates: readme.md index.html  JS folder and main.js 
 <p>concat() Method AND slice() Method assignments</p>
-<p></p>
+<p>Number Methods</p>
 <p></p>
 <p></p>
 <p></p>
