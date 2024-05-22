@@ -3,7 +3,7 @@
 <p> Created standar templates: readme.md index.html  JS folder and main.js 
 <p>concat() Method AND slice() Method assignments</p>
 <p>Number Methods</p>
-<p></p>
+<p>Project8_String_Methods Assignment</p>
 <p></p>
 <p></p>
 <p></p>

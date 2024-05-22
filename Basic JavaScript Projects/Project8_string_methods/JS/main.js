@@ -1,3 +1,5 @@
+//Project8_String_Methods Assignment
+
 //concat() Method
 function full_Sentence() {
     var part_1 = "I have ";
@@ -34,4 +36,10 @@ function slice_Method1() {
 function string_Method() {
     var x = 123;
     document.getElementById("Numbers_to_string").innerHTML = x.toString();
+	
+}
+//toPrecision() Methods
+function precision_Method() {
+    var y = 123.1234567890111213111415;
+    document.getElementById("Precision").innerHTML = y.toPrecision(6); //method formats a number to a specified length.
 }
