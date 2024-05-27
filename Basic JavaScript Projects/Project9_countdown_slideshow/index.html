@@ -1,0 +1,90 @@
+<!-- Project9_Countdown_Slideshow Assignment -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Project9_countdown_slideshow</title>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+</head>
+<body>
+
+    <!-- Countdown Timer Section -->
+	
+    <p>How many seconds would you like to set your alarm for?</p>
+    <input type="number" id="seconds" value="" />
+    <button onclick="countdown()" id="startBtn">Click here</button>
+    <p id="timer"></p>
+	
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+        <!-- Full width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 7</div>
+            <img src="./Pictures/1.jpg" style="width: 75%" alt="Monday" />
+            <div class="Monday">1</div>
+        </div>
+
+        <!-- Full width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="./Pictures/2.jpg" style="width: 75%" alt="Tuesday" />
+            <div class="text">Tuesday</div>
+        </div>
+
+        <!-- Full width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="./Pictures/3.jpg" style="width: 75%" alt="Wednesday" />
+            <div class="text">Wednesday</div>
+        </div>
+		
+		<!-- Full width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="./Pictures/4.jpg" style="width: 75%" alt="Thursday" />
+            <div class="text">Thursday</div>
+        </div>
+		
+		<!-- Full width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="./Pictures/5.jpg" style="width: 75%" alt="Friday" />
+            <div class="text">Friday</div>
+        </div>
+		
+		<!-- Full width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="./Pictures/6.jpg" style="width: 75%" alt="Saturday" />
+            <div class="text">Saturday</div>
+        </div>
+		
+		<!-- Full width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="./Pictures/7.jpg" style="width: 75%" alt="Sunday" />
+            <div class="text">Sunday</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br/>
+
+    <!-- The current selection circles -->
+    <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+		<span class="dot" onclick="currentSlide(6)"></span>
+		<span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
