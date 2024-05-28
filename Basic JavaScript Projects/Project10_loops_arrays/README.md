@@ -3,5 +3,11 @@
 <p> Created standar templates: readme.md index.html  JS folder and main.js </p>
 <p>Loop Assignment</p>
 <p>For Loop Assignment</p>
+<p>document.getElementById().innerHTML Assignment</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 <p></p>
 <p></p>
