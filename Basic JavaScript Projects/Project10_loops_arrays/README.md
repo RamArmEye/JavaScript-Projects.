@@ -4,8 +4,8 @@
 <p>Loop Assignment</p>
 <p>For Loop Assignment</p>
 <p>document.getElementById().innerHTML Assignment</p>
-<p></p>
-<p></p>
+<p>Const Keyword Assignment</p>
+<p>Let Keyword Assignment</p>
 <p></p>
 <p></p>
 <p></p>
