@@ -6,7 +6,7 @@
 <p>document.getElementById().innerHTML Assignment</p>
 <p>Const Keyword Assignment</p>
 <p>Let Keyword Assignment</p>
-<p></p>
+<p>Object Assignment</p>
 <p></p>
 <p></p>
 <p></p>

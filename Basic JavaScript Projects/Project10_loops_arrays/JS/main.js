@@ -76,3 +76,19 @@ document.write(Y);
     document.write("<br>" + Y);     
 }
 document.write("<br>" + Y + "  Variable declaration: var Y=33 can  be accesed from outside the block"); //var  can  be accesed from outside the block
+
+
+//Object Assignment
+function car_assign() {
+let car = {
+  make:"Dodge ",
+  model:"Viper ",
+  year:"2021 ",
+  color:"red ",
+  description : function(){
+    return "The car is a " + this.year + this.color + this.make + this.model;
+  }
+
+};
+document.getElementById("Car_object").innerHTML = car.description();
+}
