@@ -1,0 +1,43 @@
+/* Set margin and padding to zero for body and html to avoid unwanted spaces */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Center container with fixed width and auto margin for horizontal centering */
+.center-container {
+    width: 608px;
+    margin: 50px auto 0 auto; /* Center horizontally and add 50px margin from the top */
+    text-align: center; /* Center-align text inside the container */
+}
+
+/* Center the h1 element */
+h1 {
+    margin: 0;
+    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; /* Center the text */
+}
+
+/* Style for the table to collapse borders */
+table {
+    border-collapse: collapse; /* Collapse table borders into one */
+    border-style: hidden; /* Hide the outer border of the table */
+}
+
+/* Style for table cells */
+td {
+    cursor: pointer; /* Change cursor to pointer when hovering over table cells */
+    border: 4px solid rgba(157, 255, 0, 0.8); /* Set border color to OrangeRed with some transparency */
+    padding: 0; /* Remove default padding */
+    width: 200px; /* Set fixed width for table cells */
+    height: 200px; /* Set fixed height for table cells */
+    filter: contrast(3); /* Increase contrast for better visibility */
+}
+
+/* Style for the canvas element */
+canvas {
+    position: absolute; /* Position canvas absolutely within the container */
+    z-index: 10; /* Place canvas above other elements */
+    pointer-events: none; /* Make canvas non-interactive */
+}
