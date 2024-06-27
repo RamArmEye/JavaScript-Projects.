@@ -1,7 +1,6 @@
 <h3>JavaScript Projects</h3>
-<h5>HTML Calculator</h5>
-
-<p>JavaScript Calculator Assignment</p>
+<h5>Pizza Menu</h5>
+<p>Folders created</p>
 <p></p>
 <p></p>
 <p></p>
